@@ -18,8 +18,8 @@
 		<repackage.classifier/>
 		<spring-cloud.version>2020.0.3</spring-cloud.version>
 		<spring-native.version>0.10.1</spring-native.version>
-		<sonar.projectKey>yashshukla1319_leave-service</sonar.projectKey>
-		<sonar.organization>yashshukla1319</sonar.organization>
+		<sonar.projectKey>yashshukla1319_leave-service2</sonar.projectKey>
+		<sonar.organization>yashshukla1319-1</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 	<dependencies>
