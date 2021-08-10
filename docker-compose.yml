@@ -1,14 +1,19 @@
-version: 3
+version: '3'
 services:
   leave:
     image: leave-service
     ports:
-       8075:8075
+      - 8075:8075
 
   mysql:
     image: mysql
     ports:
-       3300:3300
+      - 3366:3366
     environment:
-        MYSQL_ROOT_USER=root
-        MYSQL_ROOT_PASSWORD=MainWill72
+       - MYSQL_ROOT_USER=root
+       - MYSQL_ROOT_PASSWORD=MainWill72
+
+  eureka:
+    image: eureka-server
+    ports:
+    - 8761:8761
